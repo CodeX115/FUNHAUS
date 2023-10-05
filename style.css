@@ -45,7 +45,7 @@ h2 {
 	margin-left: -640px;
 }
 
-.header-logo {
+.header-logo img {
 	background-image: url(photo.png);
 	width: 1600px;
 	height: 781px;
@@ -88,7 +88,7 @@ p {
 }
 
 .bottom-header p {
-	font-family: 'DM Sans', sans-serif;;
+	font-family: "DM Sans", sans-serif;
 	font-size: 56px;
 	font-style: normal;
 	font-weight: 400;
@@ -97,13 +97,16 @@ p {
 }
 
 .bottom-photo {
-	padding: 350px 0 0 170px ;
+	padding: 350px 0 0 170px;
+}
+.bottom-photo img {
+	width: 614px;
+	height: 379px;
 }
 
 .bottom-photo img:nth-child(2) {
 	margin-left: 50px;
 }
-
 
 .bottom-photo hr {
 	margin-left: 10px;
@@ -112,5 +115,3 @@ p {
 .bottom-photo p {
 	margin-left: -780px;
 }
-
-  
