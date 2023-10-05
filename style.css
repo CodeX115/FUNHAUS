@@ -54,12 +54,6 @@ h2 {
 }
 
 .header-logo {
-	width: 100%;
-	height: 50px;
-	margin: 0;
-}
-
-.header-logo img {
 	background-image: url(photo.png);
 	background-size: cover;
 	width: 100%;
@@ -104,7 +98,7 @@ p {
 }
 
 .bottom-header p {
-	font-family: 'DM Sans', sans-serif;;
+	font-family: "DM Sans", sans-serif;
 	font-size: 56px;
 	font-style: normal;
 	font-weight: 400;
@@ -113,13 +107,16 @@ p {
 }
 
 .bottom-photo {
-	padding: 350px 0 0 170px ;
+	padding: 350px 0 0 170px;
+}
+.bottom-photo img {
+	width: 614px;
+	height: 379px;
 }
 
 .bottom-photo img:nth-child(2) {
 	margin-left: 50px;
 }
-
 
 .bottom-photo hr {
 	margin-left: 10px;
@@ -129,3 +126,4 @@ p {
 	margin-left: -780px;
 }
 
+  
